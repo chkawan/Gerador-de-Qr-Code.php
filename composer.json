@@ -1,0 +1,21 @@
+{
+    "name": "chris/qr-code",
+    "description": "qr code",
+    "autoload": {
+        "psr-4": {
+            "Chris\\QrCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chkawan",
+            "email": "chris7kw@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "chillerlan/php-qrcode": "dev-main",
+        "setasign/fpdf": "^1.8",
+        "mpdf/mpdf": "^6.1"
+    }
+}
